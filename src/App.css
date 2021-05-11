@@ -23,6 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.gallery {
+  padding: 1em;
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-rows: 50em repeat(100, 35em);
+
+  background-color: var(--gallery-background);
+}
+.gallery.three-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .App-link {
   color: #61dafb;
