@@ -8,10 +8,11 @@ const Movies = ()=>{
     const value = useSelector(state => state.movie);
 const dispatch =useDispatch();
 
-const buy = () => {dispatch(actions.addtoshopkart);
+const buy = () => {dispatch(actions.addtoshopkart());
+    
 console.log('the action fired')
 }
-const pay = () => dispatch(actions.checkout);
+const pay = () => dispatch(actions.checkout());
     
 
 
