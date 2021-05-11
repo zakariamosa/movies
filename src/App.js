@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Movies from './components/Movies'
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         <h3>This is test movies web app</h3>
         
       </header>
+      <main>
+      <Movies/>
+      </main>
     </div>
   );
 }
